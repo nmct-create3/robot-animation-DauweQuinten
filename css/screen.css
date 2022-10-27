@@ -143,6 +143,7 @@ body {
 
 .c-robot__container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -166,6 +167,39 @@ body {
 */
 
 
+.c-controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  gap: 6em;
+}
+
+.c-controls__button--pause{
+  display: flex;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 100%;
+}
+
+.c-controls__list{
+  display: flex;
+  gap: 2em;
+}
+
+
+.c-controls__button{
+  padding: 8px;
+}
+
+.c-controls__radio:checked + .c-controls__button{
+  background-color: rgba(0,0,0,.2);
+  border-radius: 16px;
+}
+
+
+
+
 .c-play-icon--play{
   display: none;
 }
@@ -181,6 +215,9 @@ body {
 .is-paused .c-play-icon--pause{
   display: none;
 }
+
+
+
 
 /* 
     animation in CSS 

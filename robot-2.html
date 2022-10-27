@@ -84,68 +84,69 @@
           </g>
         </g>
       </svg>
-    </div>
-    <div class="c-controls">
-      <button
-        class="o-button-reset c-controls__button c-controls__button--pause js-pause"
-        aria-label="toggle play or pause"
-      >
-        <svg
-          class="c-play-icon c-play-icon--play"
-          width="15"
-          height="15"
-          viewBox="0 0 15 15"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M4.5 12.5v-10l7 5-7 5z"
-            stroke="currentColor"
-            stroke-linejoin="round"
-          ></path>
-        </svg>
-        <svg
-          class="c-play-icon c-play-icon--pause"
-          width="15"
-          height="15"
-          viewBox="0 0 15 15"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M5.5 3v9m4-9v9" stroke="currentColor"></path>
-        </svg>
-      </button>
 
-      <ul class="o-list-reset c-controls__list">
-        <li>
-          <input
-            class="c-controls__radio js-fast"
-            type="radio"
-            id="speedFast"
-            name="speed"
-          />
-          <label class="c-controls__button" for="speedFast">Fast</label>
-        </li>
-        <li>
-          <input
-            class="c-controls__radio js-normal"
-            type="radio"
-            id="speedNormal"
-            name="speed"
-            checked
-          />
-          <label class="c-controls__button" for="speedNormal">Normal</label>
-        </li>
-        <li>
-          <input
-            class="c-controls__radio js-slow"
-            type="radio"
-            id="speedSlow"
-            name="speed"
-          />
-          <label class="c-controls__button" for="speedSlow">Slow</label>
-        </li>
-      </ul>
+      <div class="c-controls">
+        <button
+          class="o-button-reset c-controls__button c-controls__button--pause js-pause"
+          aria-label="toggle play or pause"
+        >
+          <svg
+            class="c-play-icon c-play-icon--play"
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.5 12.5v-10l7 5-7 5z"
+              stroke="currentColor"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+          <svg
+            class="c-play-icon c-play-icon--pause"
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M5.5 3v9m4-9v9" stroke="currentColor"></path>
+          </svg>
+        </button>
+
+        <ul class="o-list-reset c-controls__list">
+          <li>
+            <input
+              class="c-controls__radio js-fast o-hide-accessible"
+              type="radio"
+              id="speedFast"
+              name="speed"
+            />
+            <label class="c-controls__button" for="speedFast">Fast</label>
+          </li>
+          <li>
+            <input
+              class="c-controls__radio js-normal o-hide-accessible"
+              type="radio"
+              id="speedNormal"
+              name="speed"
+              checked
+            />
+            <label class="c-controls__button" for="speedNormal">Normal</label>
+          </li>
+          <li>
+            <input
+              class="c-controls__radio js-slow o-hide-accessible"
+              type="radio"
+              id="speedSlow"
+              name="speed"
+            />
+            <label class="c-controls__button" for="speedSlow">Slow</label>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
