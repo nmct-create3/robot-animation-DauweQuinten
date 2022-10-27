@@ -34,6 +34,8 @@ html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--global-color-back);
+  color: var(--global-color-front);
 }
 
 *,
@@ -132,10 +134,22 @@ body {
     Component: Robot
 */
 
+
+.c-robot__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .c-robot {
+  fill: white;
+  max-width: 300px;
 }
 
 .c-robot__shadow {
+  fill: black;
+  opacity: 0.2;
 }
 
 
