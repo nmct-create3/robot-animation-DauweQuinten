@@ -181,7 +181,7 @@ body {
   }
 }
 
-#Shadow {
+.c-robot--css-anim #Shadow {
   animation-name: shadowPulse;
   animation-duration: var(--global-animation-duration);
   animation-timing-function: var(--global-animation-timing-function);
@@ -189,7 +189,7 @@ body {
   animation-direction: var(--global-animation-direction);
 }
 
-#Robot{
+.c-robot--css-anim #Robot{
   animation-name: robotHover;
   animation-duration: var(--global-animation-duration);
   animation-timing-function: var(--global-animation-timing-function);
