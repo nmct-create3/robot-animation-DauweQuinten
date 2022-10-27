@@ -165,6 +165,27 @@ body {
     Component: Controls
 */
 
+
+.c-play-icon--play{
+  display: none;
+}
+
+.c-play-icon--pause{
+  display: block;
+}
+
+.is-paused .c-play-icon--play{
+  display: block;
+}
+
+.is-paused .c-play-icon--pause{
+  display: none;
+}
+
+/* 
+    animation in CSS 
+*/
+
 @keyframes shadowPulse{
   100%{
     transform: scale(0.75);
